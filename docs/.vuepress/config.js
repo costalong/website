@@ -11,8 +11,14 @@ export default defineUserConfig({
 
   theme: recoTheme({
     logo: 'https://vuejs.press/images/hero.png',
-
-    navbar: ['/', '/get-started'],
+    pages: [
+      {
+        path: '/custom-page.html',
+        layout: 'CustomLayout',
+      },
+    ],
+    docsDir: '/docs',
+    navbar: ['/', '/get-started', '/install-vuepress'],
   }),
 
   

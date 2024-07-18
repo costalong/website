@@ -4,7 +4,7 @@ import * as clientConfig2 from '/Users/costalong/code/web/vuepress-starter/node_
 import * as clientConfig3 from '/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/@vuepress+plugin-back-to-top@2.0.0-rc.34_vuepress@2.0.0-rc.13/node_modules/@vuepress/plugin-back-to-top/lib/client/config.js'
 import * as clientConfig4 from '/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/@vuepress-reco+vuepress-plugin-bulletin-popover@2.0.0-rc.84_vuepress@2.0.0-rc.13/node_modules/@vuepress-reco/vuepress-plugin-bulletin-popover/lib/client/config.js'
 import * as clientConfig5 from '/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/@vuepress+plugin-external-link-icon@2.0.0-rc.28_vuepress@2.0.0-rc.13/node_modules/@vuepress/plugin-external-link-icon/lib/client/config.js'
-import * as clientConfig6 from '/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/register-components/clientConfig.25d37f0e.js'
+import * as clientConfig6 from '/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/register-components/clientConfig.70f2deb6.js'
 import * as clientConfig7 from '/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/@vuepress+plugin-theme-data@2.0.0-rc.34_vuepress@2.0.0-rc.13/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import * as clientConfig8 from '/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/@vuepress-reco+vuepress-plugin-page@2.0.0-rc.16_vuepress@2.0.0-rc.13/node_modules/@vuepress-reco/vuepress-plugin-page/lib/client/config.js'
 import * as clientConfig9 from '/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/@vuepress+plugin-search@2.0.0-rc.34_vuepress@2.0.0-rc.13/node_modules/@vuepress/plugin-search/lib/client/config.js'

@@ -21,6 +21,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [],
+    "path": "/custom-page.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Home",
     "headers": [],
     "path": "/",
@@ -60,6 +67,21 @@ export const searchIndex = [
       }
     ],
     "path": "/get-started.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vuepress 安装主题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "安装",
+        "slug": "安装",
+        "link": "#安装",
+        "children": []
+      }
+    ],
+    "path": "/install-vuepress.html",
     "pathLocale": "/",
     "extraFields": []
   },
