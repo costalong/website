@@ -1,5 +1,5 @@
-import comp from "/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/404.html.vue"
-const data = JSON.parse("{\"path\":\"/404.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{\"layout\":\"NotFound\"},\"headers\":[],\"git\":{},\"filePathRelative\":null}")
+import comp from "/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/posts.html.vue"
+const data = JSON.parse("{\"path\":\"/posts.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{\"layout\":\"Posts\"},\"headers\":[],\"git\":{},\"filePathRelative\":null}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
