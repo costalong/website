@@ -31,3 +31,4 @@ footer: MIT Licensed | Copyright © 2018-present VuePress Community
 This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
 
 [default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+[文档]: https://theme-hope.vuejs.press/zh/config/theme/basic.html
