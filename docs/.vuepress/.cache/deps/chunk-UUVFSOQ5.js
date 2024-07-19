@@ -72,12 +72,12 @@ __export(global_exports, {
   VuePreview: () => VuePreview,
   Xicons: () => Xicons
 });
-import Badge from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/components/global/Badge.vue";
-import Xicons from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/components/global/Xicons.vue";
-import CodeGroup from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/components/global/CodeGroup.vue";
-import MagicCard from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/components/global/MagicCard.vue";
-import VuePreview from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/components/global/VuePreview.vue";
-import CodeGroupItem from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/components/global/CodeGroupItem.vue";
+import Badge from "/home/hellotalk/code/blog/vuepress/vuepress-starter/node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/components/global/Badge.vue";
+import Xicons from "/home/hellotalk/code/blog/vuepress/vuepress-starter/node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/components/global/Xicons.vue";
+import CodeGroup from "/home/hellotalk/code/blog/vuepress/vuepress-starter/node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/components/global/CodeGroup.vue";
+import MagicCard from "/home/hellotalk/code/blog/vuepress/vuepress-starter/node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/components/global/MagicCard.vue";
+import VuePreview from "/home/hellotalk/code/blog/vuepress/vuepress-starter/node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/components/global/VuePreview.vue";
+import CodeGroupItem from "/home/hellotalk/code/blog/vuepress/vuepress-starter/node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/components/global/CodeGroupItem.vue";
 
 // node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/utils/registerGlobalComponents.js
 function registerGlobalComponents(app) {
@@ -117,4 +117,4 @@ export {
   resolveSearchComponent,
   throttle
 };
-//# sourceMappingURL=chunk-LCYMGWD7.js.map
+//# sourceMappingURL=chunk-UUVFSOQ5.js.map

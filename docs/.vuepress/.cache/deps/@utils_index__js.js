@@ -6,7 +6,7 @@ import {
   resolveRepoType,
   resolveSearchComponent,
   throttle
-} from "./chunk-LCYMGWD7.js";
+} from "./chunk-UUVFSOQ5.js";
 import "./chunk-Q6WX3UAP.js";
 import "./chunk-7U33LM2Z.js";
 export {

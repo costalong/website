@@ -4,7 +4,7 @@ import {
 import "./chunk-D2YVLGJ5.js";
 import {
   throttle
-} from "./chunk-LCYMGWD7.js";
+} from "./chunk-UUVFSOQ5.js";
 import {
   computed,
   getCurrentInstance,

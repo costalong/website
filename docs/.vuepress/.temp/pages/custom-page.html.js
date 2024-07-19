@@ -1,4 +1,4 @@
-import comp from "/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/custom-page.html.vue"
+import comp from "/home/hellotalk/code/blog/vuepress/vuepress-starter/docs/.vuepress/.temp/pages/custom-page.html.vue"
 const data = JSON.parse("{\"path\":\"/custom-page.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{\"layout\":\"CustomLayout\"},\"headers\":[],\"git\":{},\"filePathRelative\":null}")
 export { comp, data }
 
