@@ -21,13 +21,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
-    "headers": [],
-    "path": "/custom-page.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Home",
     "headers": [],
     "path": "/",
