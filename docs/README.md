@@ -32,3 +32,4 @@ This is the content of home page. Check [Home Page Docs][default-theme-home] for
 
 [default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
 [文档]: https://theme-hope.vuejs.press/zh/config/theme/basic.html
+https://stackblitz.com/edit/vuepress-theme-hope-crnleh?file=docs%2F.vuepress%2Fclient.ts,docs%2F.vuepress%2Fconfig.ts

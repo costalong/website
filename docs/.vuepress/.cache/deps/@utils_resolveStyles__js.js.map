@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../node_modules/.pnpm/vuepress-theme-reco@2.0.0-rc.16_@algolia+client-search@4.24.0_search-insights@2.15.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-reco/lib/client/utils/resolveStyles.js"],
-  "sourcesContent": ["import '@vuepress/plugin-palette/style';\nimport '../styles/index.css';\n"],
-  "mappings": ";AAAA,OAAO;AACP,OAAO;",
-  "names": []
-}
