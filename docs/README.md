@@ -30,6 +30,8 @@ footer: MIT Licensed | Copyright © 2018-present VuePress Community
 
 This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
 
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
-[文档]: https://theme-hope.vuejs.press/zh/config/theme/basic.html
-https://stackblitz.com/edit/vuepress-theme-hope-crnleh?file=docs%2F.vuepress%2Fclient.ts,docs%2F.vuepress%2Fconfig.ts
+## 文档
+
+* [default-theme-home]: （!<https://vuejs.press/>)
+* [文档]: （!<https://theme-hope.vuejs.press/zh/config/theme/basic.html>)
+* [文档]: （!<https://stackblitz.com/edit/vuepress-theme-hope-crnleh>)
