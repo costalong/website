@@ -11,6 +11,8 @@ export const routes = Object.fromEntries([
   ["/demo/markdown.html", { loader: () => import(/* webpackChunkName: "demo_markdown.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/demo/markdown.html.js"), meta: {"t":"Markdown Enhance","i":"fab fa-markdown","O":2} }],
   ["/demo/page.html", { loader: () => import(/* webpackChunkName: "demo_page.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/demo/page.html.js"), meta: {"t":"Page Config","i":"file","O":3} }],
   ["/k8s/", { loader: () => import(/* webpackChunkName: "k8s_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/index.html.js"), meta: {"t":"K8s","i":"laptop-code"} }],
+  ["/k8s/resource/", { loader: () => import(/* webpackChunkName: "k8s_resource_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/resource/index.html.js"), meta: {"t":"k8s 资源","i":"lightbulb"} }],
+  ["/k8s/resource/pod.html", { loader: () => import(/* webpackChunkName: "k8s_resource_pod.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/resource/pod.html.js"), meta: {"t":"pod 资源","i":"lightbulb"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/404.html.js"), meta: {"t":""} }],
 ]);
 
