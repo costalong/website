@@ -6,15 +6,9 @@ export const zhNavbar = navbar([
         text: "k8s",
         icon: "laptop-code",
         prefix: "/k8s/",
-        children: [
-            {
-                text: "资源",
-                icon: "lightbulb",
-                prefix: "resource/",
-                children: ["", "pod", "service", "volume", "configmap", "secret"],
-            },
-        ],
+        link: "/k8s/",
     },
+
     {
         text: "V2 文档",
         icon: "book",
