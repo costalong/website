@@ -10,7 +10,14 @@ export default hopeTheme(
             name: "Costa Long",
             url: "https://costalong.com",
         },
-        iconAssets: "fontawesome-with-brands",
+        iconPrefix: "fas fa-",
+        // 建议替换为自建 CDN，否则部分浏览器可能无法正确显示图标。2024.07 开始，uBlock Origin 将拦截公有 CDN 的 js 请求。
+        // iconAssets: ["https://cdn.staticfile.net/font-awesome/6.5.2/js/all.min.js"],
+        iconAssets: [
+            "fontawesome",
+            "https://cdn.staticfile.net/font-awesome/6.5.2/js/all.min.js",
+        ],
+        favicon: "/favicon.ico",
         logo: "https://theme-hope-assets.vuejs.press/logo.svg",
         repo: "vuepress-theme-hope/online-demo",
         docsDir: "docs",
@@ -37,10 +44,10 @@ export default hopeTheme(
             // You should generate and use your own comment service
             comment: {
                 provider: "Giscus",
-                repo: "vuepress-theme-hope/giscus-discussions",
-                repoId: "R_kgDOG_Pt2A",
+                repo: "https://github.com/costa92/giscus",
+                repoId: "R_kgDOMZJYug",
                 category: "Announcements",
-                categoryId: "DIC_kwDOG_Pt2M4COD69",
+                categoryId: "DIC_kwDOMZJYus4ChDGG",
             },
             components: {
                 components: ["Badge", "VPCard"],

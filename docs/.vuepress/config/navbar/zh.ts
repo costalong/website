@@ -3,12 +3,16 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbar = navbar([
     "/demo/",
     {
-        text: "k8s",
-        icon: "laptop-code",
-        prefix: "/k8s/",
+        text: "云原生",
+        icon: "cloud",
         link: "/k8s/",
     },
-
+    {
+        text: "Golang",
+        icon: "golang",
+        link: "/golang/",
+    },
+    { text: "技术书籍", icon: "book", link: "/books/" },
     {
         text: "V2 文档",
         icon: "book",

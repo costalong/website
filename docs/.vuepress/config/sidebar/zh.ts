@@ -1,4 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
+import { books } from "./zh/books.js";
+import { k8s } from "./zh/k8s.js";
+import { golang } from "./zh/golang.js";
 
 export const zhSidebar = sidebar({
     "//": [
@@ -23,10 +26,7 @@ export const zhSidebar = sidebar({
             link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
         },
     ],
-    '/k8s/': [{
-        text: "文档",
-        icon: "book",
-        prefix: '',
-        children: "structure",
-    }],
+    '/golang/': golang,
+    '/k8s/': k8s,
+    "/books/": books,
 });
