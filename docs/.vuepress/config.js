@@ -4,6 +4,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import theme from "./theme.ts";
 import { head } from './config/head';
 export default defineUserConfig({
+    // base: 网站域名前缀对应自己的GitHub仓库名称
+  // 一定要以/开头结尾，不然会出现资源找不到
   base: "/website/",
   dest: "docs/.vuepress/dist",
   locales: {
