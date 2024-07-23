@@ -4,8 +4,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import theme from "./theme.ts";
 import { head } from './config/head';
 export default defineUserConfig({
-  base: "/",
-  dest: "src/.vuepress/dist",
+  base: "/website",
+  dest: "docs/.vuepress/dist",
   locales: {
     "/": {
       lang: "zh-CN",
