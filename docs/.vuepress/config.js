@@ -5,7 +5,7 @@ import theme from "./theme.ts";
 import { head } from './config/head';
 export default defineUserConfig({
   base: "/",
-  dest: "./dist",
+  dest: "src/.vuepress/dist",
   locales: {
     "/": {
       lang: "zh-CN",

@@ -21,6 +21,7 @@ export default hopeTheme(
         logo: "https://theme-hope-assets.vuejs.press/logo.svg",
         repo: "vuepress-theme-hope/online-demo",
         docsDir: "docs",
+
         locales: {
             "/": {
                 // Navbar

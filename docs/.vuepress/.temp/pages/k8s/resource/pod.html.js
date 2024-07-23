@@ -1,16 +1,3 @@
 import comp from "/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/resource/pod.html.vue"
-const data = JSON.parse("{\"path\":\"/k8s/resource/pod.html\",\"title\":\"pod 资源\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"pod 资源\",\"category\":[\"K8S\",\"POD\"],\"gitInclude\":[],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://costalong.com/k8s/resource/pod.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"云原生开发的创新之路\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"pod 资源\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Costa Long\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"pod 资源\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Costa Long\\\",\\\"url\\\":\\\"https://costalong.com\\\"}]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.02,\"words\":7},\"filePathRelative\":\"k8s/resource/pod.md\"}")
+const data = JSON.parse("{\"path\":\"/k8s/resource/pod.html\",\"title\":\"pod 资源\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"pod 资源\",\"category\":[\"K8S\",\"POD\"],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://costalong.com/k8s/resource/pod.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"云原生开发的创新之路\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"pod 资源\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-07-21T11:34:21.000Z\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Costa Long\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-07-21T11:34:21.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"pod 资源\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2024-07-21T11:34:21.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Costa Long\\\",\\\"url\\\":\\\"https://costalong.com\\\"}]}\"]]},\"headers\":[],\"git\":{\"createdTime\":1721546110000,\"updatedTime\":1721561661000,\"contributors\":[{\"name\":\"costa92\",\"email\":\"944310536@qq.com\",\"commits\":2}]},\"readingTime\":{\"minutes\":0.02,\"words\":7},\"filePathRelative\":\"k8s/resource/pod.md\",\"localizedDate\":\"2024年7月21日\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
