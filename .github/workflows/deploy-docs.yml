@@ -48,7 +48,7 @@ jobs:
           folder: docs/.vuepress/dist
       # 第二步，rsync推文件
       - name: Deploy to Server
-        uses: AEnterprise/rsync-deploy@v1.0 # 使用别人包装好的步骤镜像
+        uses: AEnterprise/rsync-deploy@v1.02 # 使用别人包装好的步骤镜像
         env:
           DEPLOY_KEY: ${{ secrets.AUTO_REFRESH_BLOG_BY_GITHUB_ACTION }} # 引用配置，SSH私钥
           ARGS: -avz --delete --exclude='*.pyc' # rsync参数，排除.pyc文件
