@@ -37,7 +37,6 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           pnpm run docs:build
-          > docs/.vuepress/dist
 
       # 第一步，部署到github
       - name: 部署文档
