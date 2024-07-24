@@ -19,7 +19,7 @@ export default hopeTheme(
         ],
         favicon: "/favicon.ico",
         logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-        repo: "vuepress-theme-hope/online-demo",
+        repo: "costalong/website",
         docsDir: "docs",
 
         locales: {
