@@ -9,9 +9,12 @@ permissions:
 # 任务
 jobs:
   deploy-gh-pages:
+    ## 指定job任务运行所需要的虚拟机环境(必填字段)
     runs-on: ubuntu-latest
     steps:
+      # 获取源码
       - name: Checkout
+      # 使用action库  actions/checkout获取源码
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
