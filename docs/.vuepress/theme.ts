@@ -45,7 +45,7 @@ export default hopeTheme(
             // You should generate and use your own comment service
             comment: {
                 provider: "Giscus",
-                repo: "https://github.com/costalong/giscus",
+                repo: "costalong/giscus",
                 repoId: "R_kgDOMalxHw",
                 category: "Announcements",
                 categoryId: "DIC_kwDOMalxH84ChIdO",
