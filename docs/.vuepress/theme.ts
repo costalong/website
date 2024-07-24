@@ -45,10 +45,10 @@ export default hopeTheme(
             // You should generate and use your own comment service
             comment: {
                 provider: "Giscus",
-                repo: "https://github.com/costa92/giscus",
-                repoId: "R_kgDOMZJYug",
+                repo: "https://github.com/costalong/giscus",
+                repoId: "R_kgDOMalxHw",
                 category: "Announcements",
-                categoryId: "DIC_kwDOMZJYus4ChDGG",
+                categoryId: "DIC_kwDOMalxH84ChIdO",
             },
             components: {
                 components: ["Badge", "VPCard"],
