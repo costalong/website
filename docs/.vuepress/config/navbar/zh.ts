@@ -13,6 +13,7 @@ export const zhNavbar = navbar([
         link: "/golang/",
     },
     { text: "技术书籍", icon: "book", link: "/books/" },
+    { text: "网站技术", icon: "book", link: "/webs/" },
     {
         text: "V2 文档",
         icon: "book",

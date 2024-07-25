@@ -13,7 +13,9 @@ head:
 安装地址：  [giscus 安装地址](https://github.com/apps/giscus/installations/new)
 
 ![安装](./images/gisucs-one.png)
+
 选择使用项目
+
 ![安装](./images/giscus-two.png)
 
 

@@ -29,4 +29,5 @@ export const zhSidebar = sidebar({
     '/golang/': golang,
     '/k8s/': k8s,
     "/books/": books,
+    "/web/": books,
 });
