@@ -26,10 +26,40 @@ go install github.com/golang/mock/mockgen@v1.6.0
 ### mockgen辅助代码生成工具安装：
 
 ```sh
-go get github.com/golang/mock/mockgen
+go install github.com/golang/mock/mockgen@latest
 ```
+ mockgen 的参数
+
+
+
+
+
 
 ## 参数说明
+
+在使用 mockgen 生成模拟对象（Mock Objects）时，通常需要指定主要的参数
+
+* -source：这是你想要生成模拟对象的接口定义所在的文件路径。
+* -destination：生成的源代码写入的文件。如果不设置此项，代码将打印到标准输出。
+* -package：用于生成的模拟类源代码的包名。如果不设置此项包名默认在原包名前添加mock_前缀。
+
+* -imports：在生成的源代码中使用的显式导入列表。值为foo=bar/baz形式的逗号分隔的元素列表，其中bar/baz是要导入的包，foo是要在生成的源代码中用于包的标识符。
+* -aux_files：需要参考以解决的附加文件列表，例如在不同文件中定义的嵌入式接口。指定的值应为foo=bar/baz.go形式的以逗号分隔的元素列表，其中bar/baz.go是源文件，foo是-source文件使用的文件的包名。
+* -build_flags：（仅反射模式）一字不差地传递标志给go build
+* -mock_names：生成的模拟的自定义名称列表。这被指定为一个逗号分隔的元素列表，形式为Repository = MockSensorRepository,Endpoint=MockSensorEndpoint，其中Repository是接口名称，mockSensorrepository是所需的mock名称(mock工厂方法和mock记录器将以mock命名)。如果其中一个接口没有指定自定义名称，则将使用默认命名约定。
+
+* -self_package：生成的代码的完整包导入路径。使用此flag的目的是通过尝试包含自己的包来防止生成代码中的循环导入。如果mock的包被设置为它的一个输入(通常是主输入)，并且输出是stdio，那么mockgen就无法检测到最终的输出包，这种情况就会发生。设置此标志将告诉 mockgen 排除哪个导入
+* -copyright_file：用于将版权标头添加到生成的源代码中的版权文件
+* -debug_parser：仅打印解析器结果
+* -exec_only：（反射模式） 如果设置，则执行此反射程序
+* -prog_only：（反射模式）只生成反射程序；将其写入标准输出并退出。
+* -write_package_comment：如果为true，则写入包文档注释 (godoc)。（默认为true）
+
+
+命令为接口生成 mock 实现
+```sh
+mockgen -destination=user_service_mock.go -package=unittest -source=user_service.go
+```
 
 自定义mock实现主要包含了自定义参数，自定义返回值，自定义mock调用次数以及调用顺序
 
