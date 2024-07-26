@@ -58,11 +58,11 @@ go get github.com/golang/mock/mockgen
     MinTimes() 最小次数。
     AnyTimes() 任意次数（包括 0 次）
 
-###  （4）自定义mock调用顺序
+### （4）自定义mock调用顺序
 当存在多个mock之间相互调用的情况时，可以通过一下2种方式定义mock执行的顺序：
 
-    直接在函数后面接After
-    使用gomock.InOrder设置执行顺序
+    通过After关键字来实现保序
+    通过InOrder关键字来实现保序
 
 
 

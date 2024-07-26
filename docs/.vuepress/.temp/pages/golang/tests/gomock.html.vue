@@ -34,8 +34,8 @@ AnyTimes() 任意次数（包括 0 次）
 </code></pre>
 <h3 id="_4-自定义mock调用顺序" tabindex="-1"><a class="header-anchor" href="#_4-自定义mock调用顺序"><span>（4）自定义mock调用顺序</span></a></h3>
 <p>当存在多个mock之间相互调用的情况时，可以通过一下2种方式定义mock执行的顺序：</p>
-<pre><code>直接在函数后面接After
-使用gomock.InOrder设置执行顺序
+<pre><code>通过After关键字来实现保序
+通过InOrder关键字来实现保序
 </code></pre>
 </div></template>
 
