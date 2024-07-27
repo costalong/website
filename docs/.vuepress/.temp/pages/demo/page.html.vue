@@ -40,7 +40,12 @@
 </li>
 <li>
 <p>A card:</p>
-<VPCard v-bind='{"title":"Mr.Hope","desc":"Where there is light, there is hope","logo":"https://mister-hope.com/logo.svg","link":"https://mister-hope.com","background":"rgba(253, 230, 138, 0.15)"}' /></li>
+<div class="language-component line-numbers-mode" data-highlighter="shiki" data-ext="component" data-title="component" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>title: Mr.Hope</span></span>
+<span class="line"><span>desc: Where there is light, there is hope</span></span>
+<span class="line"><span>logo: https://mister-hope.com/logo.svg</span></span>
+<span class="line"><span>link: https://mister-hope.com</span></span>
+<span class="line"><span>background: rgba(253, 230, 138, 0.15)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
 </ul>
 </div></template>
 

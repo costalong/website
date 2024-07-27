@@ -1,8 +1,14 @@
 import { defineClientConfig } from "vuepress/client";
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
-
+import WeChatLink from "./components/WeChatLink.js";
+import GitHubLink from "./components/GitHubLink.js";
 export default defineClientConfig({
+    enhance: ({ app }) => {
+        app.component("GitHubLink", GitHubLink);
+        app.component("WeChatLink", WeChatLink);
+    },
+
     setup() {
         setupRunningTimeFooter(
             new Date("20224-01-01"),

@@ -1,14 +1,14 @@
 import { defineClientConfig } from "vuepress/client";
 
 
-import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.52_markdown-it@14.1.0_vuepress@2.0.0-rc.14/node_modules/vuepress-theme-hope/lib/client/export.js";
+import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.52_@vuepress+plugin-docsearch@2.0.0-rc.39_@vuepress+plugin-feed@_phk5f2dmsea7dkgxu3qz3v5yhq/node_modules/vuepress-theme-hope/lib/client/export.js";
 
 import { defineCatalogInfoGetter } from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/@vuepress+plugin-catalog@2.0.0-rc.39_vuepress@2.0.0-rc.14/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
-import { GlobalEncrypt, LocalEncrypt } from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.52_markdown-it@14.1.0_vuepress@2.0.0-rc.14/node_modules/vuepress-theme-hope/lib/client/modules/encrypt/export.js";
+import { GlobalEncrypt, LocalEncrypt } from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.52_@vuepress+plugin-docsearch@2.0.0-rc.39_@vuepress+plugin-feed@_phk5f2dmsea7dkgxu3qz3v5yhq/node_modules/vuepress-theme-hope/lib/client/modules/encrypt/export.js";
 
 import "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.39_vuepress@2.0.0-rc.14/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
-import "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.52_markdown-it@14.1.0_vuepress@2.0.0-rc.14/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
+import "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.52_@vuepress+plugin-docsearch@2.0.0-rc.39_@vuepress+plugin-feed@_phk5f2dmsea7dkgxu3qz3v5yhq/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.t;

@@ -1,2 +1,13 @@
+// https://vuepress-theme-hope.github.io/v2/zh/config/style.html#palette-scss
+// palette.scss
 // you can change colors here
 $theme-color: #096dd9;
+
+// 布局设置
+// sidebar
+$sidebar-width: 1rem !default;
+$sidebar-mobile-width: 16rem !default;
+
+// content
+$content-width: 1000px !default;
+$home-page-width: 1160px !default;

@@ -1,3 +1,9 @@
 // place your custom styles here
 @use "vuepress-theme-hope/presets/bounce-icon";
 @use "vuepress-theme-hope/presets/shinning-feature-panel";
+
+:root {
+    scroll-behavior: smooth;
+    //  修改  --content-width 的值 默认为 780px
+    --content-width: calc(80vw - var(--sidebar-width));
+}
