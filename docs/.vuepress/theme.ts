@@ -9,13 +9,10 @@ export default hopeTheme(
             name: "Costa Long",
             url: "https://costalong.com",
         },
-        // iconPrefix: "fas fa-",
-        // 建议替换为自建 CDN，否则部分浏览器可能无法正确显示图标。2024.07 开始，uBlock Origin 将拦截公有 CDN 的 js 请求。
-        // iconAssets: ["https://cdn.staticfile.net/font-awesome/6.5.2/js/all.min.js"],
-        // iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
-        // iconAssets: "iconify",
-        // iconAssets: "https://at.alicdn.com/t/c/font_3748819_l4201g8napn.css",
-        iconAssets: 'fontawesome-with-brands',
+
+        iconPrefix: "iconfont icon-",
+        // : "https://at.alicdn.com/t/c/font_3748819_l4201g8napn.css",
+        iconAssets: "//at.alicdn.com/t/c/font_860724_lwa0r24i83g.css",
 
         favicon: "/favicon.ico",
         logo: "https://theme-hope-assets.vuejs.press/logo.svg",

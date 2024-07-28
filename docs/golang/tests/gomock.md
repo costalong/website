@@ -1,6 +1,6 @@
 ---
 title: "golang 单元测试 gomock"
-icon: golang
+icon: golang2
 ---
 ## 简介
 

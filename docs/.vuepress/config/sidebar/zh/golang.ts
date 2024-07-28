@@ -3,7 +3,7 @@ export const golang = arraySidebar(
     [
         {
             text: "golang的文档",
-            icon: "golang",
+            icon: "golang2",
             prefix: '/golang/',
             collapsible: true,
             children: [

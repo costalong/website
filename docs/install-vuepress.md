@@ -1,5 +1,7 @@
 # vuepress 安装主题
+
 ##  安装 
+
 ```sh
 npm install vuepress@next vuepress-theme-reco@next --save-dev
 # or

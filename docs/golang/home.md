@@ -1,6 +1,6 @@
 ---
 title: "golang 语言的介绍"
-icon: golang
+icon: golang2
 ---
 ## golang 的介绍
 

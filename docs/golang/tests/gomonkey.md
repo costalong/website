@@ -1,6 +1,6 @@
 ---
 title: "golang 单元测试 gomonkey"
-icon: golang
+icon: golang2
 ---
 ## 简介
 
