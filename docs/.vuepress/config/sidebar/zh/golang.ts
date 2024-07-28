@@ -11,6 +11,7 @@ export const golang = arraySidebar(
                 {
                     text: "测试",
                     prefix: 'tests/',
+                    icon: "test",
                     collapsible: true,
                     link: "tests/",
                     children: [
