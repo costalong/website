@@ -14,12 +14,13 @@ goconvey 的官网是 [http://goconvey.co/](http://goconvey.co/)，这里就不�
 ### 安装
 
 ```bash
-go get github.com/smartystreets/goconvey
+go install github.com/smartystreets/goconvey@v1.8.1
 ```
 
 ### 使用
 
 #### 1. 在项目根目录下创建 goconvey 的配置文件 goconvey.conf
+
 ```bash
 # goconvey.conf
 port = 8080
