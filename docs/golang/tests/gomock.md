@@ -237,14 +237,18 @@ func Test_Update(t *testing.T) {
 ### 5.测试
 
 ```sh
-➜  demo go test .
-ok    github.com/costa92/test/demo    0.335s
+➜  demo-one git:(master) ✗ go test ./...                        
+?       github.com/costalong/blog-code-go/unit-test/gomock-demo/demo-one        [no test files]
+ok      github.com/costalong/blog-code-go/unit-test/gomock-demo/demo-one/mock   0.350s
 ```
 
 ### 6.测试覆盖率
 
 ```go
-go test -cover
+➜  demo-one git:(master) ✗ go test ./... -cover                 
+        github.com/costalong/blog-code-go/unit-test/gomock-demo/demo-one                coverage: 0.0% of statements
+ok      github.com/costalong/blog-code-go/unit-test/gomock-demo/demo-one/mock   0.085s  coverage: 28.6% of statements
+
 ```
 
 ### 7. 可视化界面
@@ -252,7 +256,10 @@ go test -cover
 1. 生成测试覆盖率的 profile 文件
    
  ```sh
- go test . -coverprofile=cover.out
+ ➜  demo-one git:(master) ✗ go test ./... -coverprofile=cover.out
+        github.com/costalong/blog-code-go/unit-test/gomock-demo/demo-one                coverage: 0.0% of statements
+ok      github.com/costalong/blog-code-go/unit-test/gomock-demo/demo-one/mock   0.262s  coverage: 28.6% of statements
+
  ```
 
 2. 利用 go 工具 profile 文件生成可视化界面
