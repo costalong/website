@@ -25,6 +25,7 @@ export const routes = Object.fromEntries([
   ["/golang/tests/", { loader: () => import(/* webpackChunkName: "golang_tests_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/index.html.js"), meta: {"t":"Tests"} }],
   ["/k8s/", { loader: () => import(/* webpackChunkName: "k8s_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/index.html.js"), meta: {"t":"K8s"} }],
   ["/k8s/resource/", { loader: () => import(/* webpackChunkName: "k8s_resource_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/resource/index.html.js"), meta: {"t":"Resource"} }],
+  ["/golang/tests/goconvey.html", { loader: () => import(/* webpackChunkName: "golang_tests_goconvey.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/goconvey.html.js"), meta: {"t":"golang 单元测试 goconvey","i":"golang2"} }],
 ]);
 
 if (import.meta.webpackHot) {

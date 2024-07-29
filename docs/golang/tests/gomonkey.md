@@ -6,6 +6,7 @@ icon: golang2
 
 Gomonkey 是一个在 Go 语言中非常有用的测试工具库。
 
+
 Gomonkey 的主要作用是用于在测试中动态地修改函数的行为。这使得测试能够更加灵活和全面，能够模拟各种不同的情况和边界条件。它提供了多种功能，包括方法、函数和全局变量的打桩（Stub），函数的 Monkey Patch，方法和函数调用的参数与返回值验证等。
 
 ## gomonkey支持的特性以及使用方法
@@ -30,6 +31,53 @@ Gomonkey 的主要作用是用于在测试中动态地修改函数的行为。�
 | Reset() | 删除桩 | |
 
 ## 使用
+
+### 安装 gomonkey
+
+```sh
+go get github.com/agiledragon/gomonkey/v2@v2.11.0
+```
+
+### 例子
+
+1. 为函数打桩
+
+简单的例子，为函数 Sum 打桩，返回 2，nil
+
+
+```go 
+package demo_one
+
+import (
+	"github.com/agiledragon/gomonkey/v2"
+	"github.com/stretchr/testify/assert"
+	"testing"
+)
+
+func Sum(a, b int) (int, error) {
+	// do something in remote computer
+	c := a + b
+	return c, nil
+}
+
+func Compute(a, b int) (int, error) {
+	sum, err := Sum(a, b)
+	return sum, err
+}
+
+func TestCompute(t *testing.T) {
+	patches := gomonkey.ApplyFunc(Sum, func(a, b int) (int, error) {
+		return 2, nil
+	})
+	defer patches.Reset()
+	sum, err := Compute(1, 1)
+	assert.NoError(t, err)
+	assert.Equal(t, 2, sum)
+}
+
+```
+
+
 
 ## 参考文档
 
