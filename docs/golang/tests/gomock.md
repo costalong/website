@@ -396,6 +396,7 @@ func (u *UserService) GetUserInfoById11(id int) string {
 }
 
 ```
+
 在 user_service.go 文件中使用 user_info.go 的  UserInfoSrv 的 interface
 
 所以生成mock 的命令需要改成：
@@ -404,10 +405,16 @@ func (u *UserService) GetUserInfoById11(id int) string {
  mockgen -destination=user_service_mock.go  -package=demo  -aux_files=github.com/costa92/test/demo=user_info.go -source=user_service.go
  ```
 
+或者使用下面命令
+
+```sh
+ mockgen -destination=user_service_mock.go  -package=demo github.com/costa92/test/demo UserSrv 
+```
+
 * `github.com/costa92/test/demo` 是包名
 * `user_info.go` 是 interface 定义的文件
 
-## 参考：
+## 参考
 
 [golang-unit-test](https://zhangyuyu.github.io/golang-unit-test/)
 [gomock github](https://github.com/golang/mock)

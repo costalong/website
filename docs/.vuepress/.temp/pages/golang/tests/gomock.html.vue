@@ -361,11 +361,13 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在 user_service.go 文件中使用 user_info.go 的  UserInfoSrv 的 interface</p>
 <p>所以生成mock 的命令需要改成：</p>
 <div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" data-title="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> mockgen</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -destination=user_service_mock.go</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  -package=demo</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  -aux_files=github.com/costa92/test/demo=user_info.go</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -source=user_service.go</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>或者使用下面命令</p>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" data-title="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> mockgen</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -destination=user_service_mock.go</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  -package=demo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> github.com/costa92/test/demo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> UserSrv</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><ul>
 <li><code v-pre>github.com/costa92/test/demo</code> 是包名</li>
 <li><code v-pre>user_info.go</code> 是 interface 定义的文件</li>
 </ul>
-<h2 id="参考" tabindex="-1"><a class="header-anchor" href="#参考"><span>参考：</span></a></h2>
+<h2 id="参考" tabindex="-1"><a class="header-anchor" href="#参考"><span>参考</span></a></h2>
 <p><a href="https://zhangyuyu.github.io/golang-unit-test/" target="_blank" rel="noopener noreferrer">golang-unit-test</a>
 <a href="https://github.com/golang/mock" target="_blank" rel="noopener noreferrer">gomock github</a></p>
 </div></template>
