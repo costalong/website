@@ -16,7 +16,7 @@ export default hopeTheme(
         iconAssets: "//at.alicdn.com/t/c/font_860724_kuhb2h5w38m.css",
 
         favicon: "/favicon.ico",
-        logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+        logo: "/logo.png",
         repo: "costalong/website",
         docsDir: "docs",
 
