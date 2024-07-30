@@ -296,8 +296,9 @@
 </ol>
 <figure><img src="https://costa92.oss-cn-hangzhou.aliyuncs.com/Blog/20240729235418.png" alt="20240729235418" tabindex="0" loading="lazy"><figcaption>20240729235418</figcaption></figure>
 <h2 id="参考文档" tabindex="-1"><a class="header-anchor" href="#参考文档"><span>参考文档</span></a></h2>
-<p><a href="https://blog.csdn.net/u013276277/article/details/104993370" target="_blank" rel="noopener noreferrer">gomonkey调研文档和学习</a>
-<a href="https://github.com/xhd2015/xgo" target="_blank" rel="noopener noreferrer">xgo</a></p>
+<p><a href="https://blog.csdn.net/u013276277/article/details/104993370" target="_blank" rel="noopener noreferrer">gomonkey调研文档和学习</a></p>
+<p><a href="https://github.com/xhd2015/xgo" target="_blank" rel="noopener noreferrer">xgo</a></p>
+<p><a href="https://www.jianshu.com/p/8a52eae7f786" target="_blank" rel="noopener noreferrer">gomonkey用户如何对泛型打桩</a></p>
 </div></template>
 
 

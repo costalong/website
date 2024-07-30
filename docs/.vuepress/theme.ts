@@ -2,6 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { zhNavbar } from "./config/navbar/";
 import { zhSidebar } from "./config/sidebar";
 import { comment, components, mdEnhance } from "./plugins/index";
+
 export default hopeTheme(
     {
         hostname: "https://costalong.com",
@@ -49,6 +50,15 @@ export default hopeTheme(
             comment: comment,
             components: components,
             mdEnhance: mdEnhance,
+            shiki: {
+                themes: {
+                    light: "one-light",
+                    dark: "one-dark-pro",
+                },
+            },
+            copyCode: {
+                showInMobile: true
+            },
         }
     },
     { custom: true }

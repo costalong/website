@@ -16,7 +16,8 @@ export const golang = arraySidebar(
                     link: "tests/",
                     children: [
                         "gomonkey",
-                        "gomock"
+                        "gomock",
+                        "goconvey",
                     ],
                 },
             ],

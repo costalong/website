@@ -368,9 +368,9 @@
 <li><code v-pre>admin_info.go</code> 是 interface 定义的文件</li>
 </ul>
 <h2 id="参考" tabindex="-1"><a class="header-anchor" href="#参考"><span>参考</span></a></h2>
-<p><a href="https://zhangyuyu.github.io/golang-unit-test/" target="_blank" rel="noopener noreferrer">golang-unit-test</a>
-<a href="https://github.com/golang/mock" target="_blank" rel="noopener noreferrer">gomock github</a>
-<a href="https://github.com/costalong/blog-code-go/tree/master/unit-test/gomock-demo/demo-one" target="_blank" rel="noopener noreferrer">代码示例</a></p>
+<p><a href="https://zhangyuyu.github.io/golang-unit-test/" target="_blank" rel="noopener noreferrer">golang-unit-test</a></p>
+<p><a href="https://github.com/golang/mock" target="_blank" rel="noopener noreferrer">gomock github</a></p>
+<p><a href="https://github.com/costalong/blog-code-go/tree/master/unit-test/gomock-demo/demo-one" target="_blank" rel="noopener noreferrer">代码示例</a></p>
 </div></template>
 
 
