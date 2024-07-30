@@ -51,6 +51,7 @@ export default hopeTheme(
             components: components,
             mdEnhance: mdEnhance,
             shiki: {
+                theme: "nord",
                 themes: {
                     light: "one-light",
                     dark: "one-dark-pro",
