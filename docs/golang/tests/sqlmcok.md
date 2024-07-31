@@ -84,3 +84,5 @@ ok      github.com/costalong/blog-code-go/unit-test/sqlmock-demo/demo-one       
 [go-sqlmock](https://github.com/DATA-DOG/go-sqlmock)
 
 [使用 go-sqlmock 模拟数据库驱动编写单元测试用例](https://piaohua.github.io/post/golang/20220813-go-sqlmock/)
+
+[Go单测测试 — 数据库 CRUD 的 Mock 测试](https://mp.weixin.qq.com/s?__biz=MzUzNTY5MzU2MA==&mid=2247493173&idx=1&sn=ef47fc8591a1976e0e254ed76cb1e144&chksm=fa8337a2cdf4beb45a1b55c0e231fa3f340afc4d37f590b237faedce720e2a0a51ae7c2d50a9&token=363190209&lang=zh_CN&poc_token=HFljqmajyAleVnOJw0Brf3paLJ6ivBgPXejwWARd)
