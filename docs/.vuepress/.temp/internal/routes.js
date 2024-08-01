@@ -27,6 +27,7 @@ export const routes = Object.fromEntries([
   ["/golang/tests/", { loader: () => import(/* webpackChunkName: "golang_tests_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/index.html.js"), meta: {"t":"Tests"} }],
   ["/k8s/resource/", { loader: () => import(/* webpackChunkName: "k8s_resource_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/resource/index.html.js"), meta: {"t":"Resource"} }],
   ["/golang/tests/sqlmcok.html", { loader: () => import(/* webpackChunkName: "golang_tests_sqlmcok.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/sqlmcok.html.js"), meta: {"t":"golang 单元测试 sqlmock","i":"golang2"} }],
+  ["/golang/tests/xgo.html", { loader: () => import(/* webpackChunkName: "golang_tests_xgo.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/xgo.html.js"), meta: {"t":"golang 单元测试 xgo","i":"golang2"} }],
 ]);
 
 if (import.meta.webpackHot) {
