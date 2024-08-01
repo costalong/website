@@ -11,3 +11,4 @@ xgo 项目是 Go 语言的跨平台构建工具，它允许您使用单个命令
 ## 参考
 
 [xgo: 一款新鲜出炉的 Go 代码测试利器](https://juejin.cn/post/7371280074127638567)
+[xgo <Go编程世界>](https://mp.weixin.qq.com/s/ry8wcH0Ta6NPsmFyQnbGaA)
