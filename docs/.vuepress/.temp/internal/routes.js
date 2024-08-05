@@ -17,6 +17,9 @@ export const routes = Object.fromEntries([
   ["/golang/tests/goconvey.html", { loader: () => import(/* webpackChunkName: "golang_tests_goconvey.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/goconvey.html.js"), meta: {"t":"golang 单元测试 goconvey","i":"golang2"} }],
   ["/golang/tests/gomock.html", { loader: () => import(/* webpackChunkName: "golang_tests_gomock.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/gomock.html.js"), meta: {"t":"golang 单元测试 gomock","i":"golang2"} }],
   ["/golang/tests/gomonkey.html", { loader: () => import(/* webpackChunkName: "golang_tests_gomonkey.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/gomonkey.html.js"), meta: {"t":"golang 单元测试 gomonkey","i":"golang2"} }],
+  ["/golang/tests/sqlmcok.html", { loader: () => import(/* webpackChunkName: "golang_tests_sqlmcok.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/sqlmcok.html.js"), meta: {"t":"golang 单元测试 sqlmock","i":"golang2"} }],
+  ["/golang/tests/xgo.html", { loader: () => import(/* webpackChunkName: "golang_tests_xgo.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/xgo.html.js"), meta: {"t":"golang 单元测试 xgo","i":"golang2"} }],
+  ["/k8s/installs/ubutun_install.html", { loader: () => import(/* webpackChunkName: "k8s_installs_ubutun_install.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/installs/ubutun_install.html.js"), meta: {"t":"","i":"creative"} }],
   ["/k8s/resource/pod.html", { loader: () => import(/* webpackChunkName: "k8s_resource_pod.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/resource/pod.html.js"), meta: {"t":"pod 资源"} }],
   ["/k8s/resource/service.html", { loader: () => import(/* webpackChunkName: "k8s_resource_service.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/resource/service.html.js"), meta: {"t":"server 资源"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/404.html.js"), meta: {"t":""} }],
@@ -25,9 +28,8 @@ export const routes = Object.fromEntries([
   ["/k8s/", { loader: () => import(/* webpackChunkName: "k8s_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/index.html.js"), meta: {"t":"K8s"} }],
   ["/webs/", { loader: () => import(/* webpackChunkName: "webs_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/webs/index.html.js"), meta: {"t":"Webs"} }],
   ["/golang/tests/", { loader: () => import(/* webpackChunkName: "golang_tests_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/index.html.js"), meta: {"t":"Tests"} }],
+  ["/k8s/installs/", { loader: () => import(/* webpackChunkName: "k8s_installs_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/installs/index.html.js"), meta: {"t":"Installs"} }],
   ["/k8s/resource/", { loader: () => import(/* webpackChunkName: "k8s_resource_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/resource/index.html.js"), meta: {"t":"Resource"} }],
-  ["/golang/tests/sqlmcok.html", { loader: () => import(/* webpackChunkName: "golang_tests_sqlmcok.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/sqlmcok.html.js"), meta: {"t":"golang 单元测试 sqlmock","i":"golang2"} }],
-  ["/golang/tests/xgo.html", { loader: () => import(/* webpackChunkName: "golang_tests_xgo.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/xgo.html.js"), meta: {"t":"golang 单元测试 xgo","i":"golang2"} }],
 ]);
 
 if (import.meta.webpackHot) {
