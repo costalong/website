@@ -459,6 +459,28 @@ kubeadm join 10.0.12.8:6443 --token abcdef.0123456789abcdef \
 ```sh
 sudo kubeadm reset
 ```
+### 问题排查
+一般排查的错误的命令使用 
+
+* 查询系统错误
+  
+```sh
+journalctl -fu kubelet
+```
+* 查看 kubelet 的状态
+
+```sh
+sudo systemctl status kubelet
+```
+
+* 查看容器的日志
+  
+```sh
+## 查看 pdo
+sudo crictl pod
+## POD 的日志
+sudo crictl logs <POD ID>
+```
 
 修改配置文件后，重新执行 kubeadm init --config=kubeadm-init.yml
 
