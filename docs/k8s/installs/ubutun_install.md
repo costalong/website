@@ -1,5 +1,5 @@
 ---
-ubutun 使用 containerd 安装 k8s:
+title: Ubuntu 使用 containerd 安装 k8s
 icon: creative
 category:
   - K8S
@@ -345,12 +345,11 @@ kubeadm init --config=kubeadm-config.yaml
 kubeadm config images list --config=kubeadm-init.yml
 ```
 
-注意：再次确认 registry.aliyuncs.com/google_containers/pause:3.9 就是上面 /etc/containerd/config.toml 中所需要填写正确的 pause镜像及版本号。
+注意：再次确认 `registry.aliyuncs.com/google_containers/pause:3.9` 就是上面 `/etc/containerd/config.toml` 中所需要填写正确的 pause镜像及版本号。
 
-
-...
-    sandbox_image = "registry.aliyuncs.com/google_containers/pause:3.9"
-...
+```sh
+sandbox_image = "registry.aliyuncs.com/google_containers/pause:3.9"
+```
 
 ```sh
 # 下载镜像
@@ -454,19 +453,22 @@ kubeadm join 10.0.12.8:6443 --token abcdef.0123456789abcdef \
 
 * [addons]： 安装基本插件:CoreDNS, kube-proxy
 
-
 注意： 如果执行 kubeadm init --config=kubeadm-init.yml 时，需要重置
+
 ```sh
 sudo kubeadm reset
 ```
+
 ### 问题排查
-一般排查的错误的命令使用 
+
+一般排查的错误的命令使用如下命令：
 
 * 查询系统错误
   
 ```sh
 journalctl -fu kubelet
 ```
+
 * 查看 kubelet 的状态
 
 ```sh
@@ -485,6 +487,7 @@ sudo crictl logs <POD ID>
 修改配置文件后，重新执行 kubeadm init --config=kubeadm-init.yml
 
 ### 配置kubectl
+
 ```sh
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
@@ -494,6 +497,7 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ### 部署网络插件
 
 安装 calico.yaml
+
 ```sh
 kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 ```
@@ -504,18 +508,18 @@ kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
 
-
 ### 添加节点
+
 ```sh
 kubeadm join 10.0.12.8:6443 --token abcdef.0123456789abcdef \
   --discovery-token-ca-cert-hash sha256:e7600c160a03f29329eda80b7e307ddb39a7714a8ec2f55aa36d08b1cc558996 
 ```
 
 ### 查看集群状态
+
 ```sh
 kubectl get nodes
 ```
-
 
 ## 参考
 
