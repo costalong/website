@@ -1,5 +1,5 @@
 ---
-title: Ubuntu 使用 containerd 安装 k8s
+title: Ubuntu使用containerd安装k8s
 icon: creative
 category:
   - K8S
