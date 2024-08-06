@@ -56,6 +56,7 @@ sudo swapoff -a
 # 注释swap挂载
 vim /etc/fstab
 ```
+
 使用 `free -m` 查看是否已经关闭
 
 ```sh
@@ -114,8 +115,7 @@ lsmod|grep -e ip_vs -e nf_conntrack
 
 #### 2.1.1 下载二进制文件
 
- 分别把 containerd、runc、cni-plugins、nerdctl 二进制下载到本地，才开始配置 
-
+分别把 containerd、runc、cni-plugins、nerdctl 二进制下载到本地，才开始配置:
 
 ```bash
 # 设置下载的版本
@@ -142,10 +142,6 @@ wget https://github.com/containerd/nerdctl/releases/download/v${NERDCTL_VERSION}
 
 echo "--------------install crictl--------------"
 wget https://github.com/kubernetes-sigs/cri-tools/releases/download/v${CRICTL_VERSION}/crictl-v${CRICTL_VERSION}-linux-amd64.tar.gz
-
-
-
-
 
 # 解压二进制文件并且配置
 echo "--------------unzip containerd--------------"
