@@ -30,6 +30,7 @@ export const routes = Object.fromEntries([
   ["/golang/tests/", { loader: () => import(/* webpackChunkName: "golang_tests_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/golang/tests/index.html.js"), meta: {"t":"Tests"} }],
   ["/k8s/installs/", { loader: () => import(/* webpackChunkName: "k8s_installs_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/installs/index.html.js"), meta: {"t":"Installs"} }],
   ["/k8s/resource/", { loader: () => import(/* webpackChunkName: "k8s_resource_index.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/resource/index.html.js"), meta: {"t":"Resource"} }],
+  ["/k8s/tools/kubecm.html", { loader: () => import(/* webpackChunkName: "k8s_tools_kubecm.html" */"/Users/costalong/code/web/vuepress-starter/docs/.vuepress/.temp/pages/k8s/tools/kubecm.html.js"), meta: {"t":"kubecm 使用"} }],
 ]);
 
 if (import.meta.webpackHot) {
