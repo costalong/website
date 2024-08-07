@@ -14,7 +14,7 @@ export const k8s = arraySidebar([
                 icon: "laptop-code",
                 collapsible: true,
                 children: [
-                    "ubutun_install",
+                    "ubuntu-install",
                 ],
             },
             {
@@ -26,6 +26,16 @@ export const k8s = arraySidebar([
                 children: [
                     "pod",
                     "service",
+                ],
+            },
+            {
+                text: "使用的工具",
+                link: "tools/",
+                prefix: "tools/",
+                icon: "laptop-code",
+                collapsible: true,
+                children: [
+                    "kubecm",
                 ],
             }
         ],

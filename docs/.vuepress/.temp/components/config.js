@@ -1,12 +1,12 @@
 import { defineClientConfig } from "vuepress/client";
-import { hasGlobalComponent } from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.39_vuepress@2.0.0-rc.14/node_modules/@vuepress/helper/lib/client/index.js";
+import { hasGlobalComponent } from "/home/hellotalk/code/blog/website/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.39_vuepress@2.0.0-rc.14/node_modules/@vuepress/helper/lib/client/index.js";
 
-import { useStyleTag } from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/@vueuse+core@10.11.0_vue@3.4.33/node_modules/@vueuse/core/index.mjs";
-import FontIcon from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_sass-loader@14.2.1_vuepress@2.0.0-rc.14/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import Badge from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_sass-loader@14.2.1_vuepress@2.0.0-rc.14/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import VPCard from "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_sass-loader@14.2.1_vuepress@2.0.0-rc.14/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
+import { useStyleTag } from "/home/hellotalk/code/blog/website/node_modules/.pnpm/@vueuse+core@10.11.0_vue@3.4.33/node_modules/@vueuse/core/index.mjs";
+import FontIcon from "/home/hellotalk/code/blog/website/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_sass-loader@14.2.1_vuepress@2.0.0-rc.14/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import Badge from "/home/hellotalk/code/blog/website/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_sass-loader@14.2.1_vuepress@2.0.0-rc.14/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import VPCard from "/home/hellotalk/code/blog/website/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_sass-loader@14.2.1_vuepress@2.0.0-rc.14/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
 
-import "/Users/costalong/code/web/vuepress-starter/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_sass-loader@14.2.1_vuepress@2.0.0-rc.14/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "/home/hellotalk/code/blog/website/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_sass-loader@14.2.1_vuepress@2.0.0-rc.14/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {

@@ -43,6 +43,38 @@ sudo mv kubecm /usr/local/bin/
 kubecm add -f test.yaml 
 ```
 
+### 3.kubecm 使用
+
+- 查看集群
+
+```sh
+kubecm list
+```
+
+- 切换集群
+  
+```sh
+kubecm switch test
+```
+
+- 切换namespace
+
+```sh
+kubecm namespace  # 切换到默认的 namespace
+```
+
+- 重新命名
+  
+```sh
+kubecm rename
+```
+
+更多的命令可以查看帮助
+
+```sh
+kubecm -h
+```
+
 ### 文档
 
 - [kubecm](https://kubecm.cloud/en-us/introduction)
