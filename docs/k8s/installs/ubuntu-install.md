@@ -517,8 +517,18 @@ kubeadm join 10.0.12.8:6443 --token abcdef.0123456789abcdef \
 kubectl get nodes
 ```
 
+### 排查错误命令
+
+* 查看节点的错误
+  
+```sh
+kubectl describe node node -n kube-system | grep -A 20 "Conditions"  
+```
+
 ## 参考
 
-[containerd](https://github.com/containerd/containerd)
+* [containerd](https://github.com/containerd/containerd)
 
-[kubernetes-containerd](https://kubernetes.io/docs/setup/production-environment/container-runtimes/#containerd)
+* [kubernetes-containerd](https://kubernetes.io/docs/setup/production-environment/container-runtimes/#containerd)
+
+* [Docker Hub 镜像加速器](https://gist.github.com/y0ngb1n/7e8f16af3242c7815e7ca2f0833d3ea6)
