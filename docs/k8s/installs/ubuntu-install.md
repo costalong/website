@@ -428,7 +428,7 @@ Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
 Then you can join any number of worker nodes by running the following on each as root:
 
 kubeadm join 10.0.12.8:6443 --token abcdef.0123456789abcdef \
-	--discovery-token-ca-cert-hash sha256:e7600c160a03f29329eda80b7e307ddb39a7714a8ec2f55aa36d08b1cc558996 
+ --discovery-token-ca-cert-hash sha256:e7600c160a03f29329eda80b7e307ddb39a7714a8ec2f55aa36d08b1cc558996 
 ```
 
 解释下上面的日志输出内容，看行首 [] 括起来的内容。
@@ -480,6 +480,12 @@ sudo crictl pod
 sudo crictl logs <POD ID>
 ```
 
+* 查看节点的错误
+  
+```sh
+kubectl describe node node -n kube-system | grep -A 20 "Conditions"  
+```
+
 修改配置文件后，重新执行 kubeadm init --config=kubeadm-init.yml
 
 ### 配置kubectl
@@ -515,14 +521,6 @@ kubeadm join 10.0.12.8:6443 --token abcdef.0123456789abcdef \
 
 ```sh
 kubectl get nodes
-```
-
-### 排查错误命令
-
-* 查看节点的错误
-  
-```sh
-kubectl describe node node -n kube-system | grep -A 20 "Conditions"  
 ```
 
 ## 参考
