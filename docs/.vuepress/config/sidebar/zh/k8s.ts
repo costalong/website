@@ -15,6 +15,7 @@ export const k8s = arraySidebar([
                 collapsible: true,
                 children: [
                     "ubuntu-install",
+                    "ubuntu-error",
                 ],
             },
             {
