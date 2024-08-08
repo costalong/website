@@ -32,6 +32,6 @@ This is the content of home page. Check [Home Page Docs][default-theme-home] for
 
 ## 文档
 
-* [default-theme-home]: （!<https://vuejs.press/>)
-* [文档]: （!<https://theme-hope.vuejs.press/zh/config/theme/basic.html>)
-* [文档]: （!<https://stackblitz.com/edit/vuepress-theme-hope-crnleh>)
+- [default-theme-home]: （!<https://vuejs.press/>)
+- [文档]: （!<https://theme-hope.vuejs.press/zh/config/theme/basic.html>)
+- [文档]: （!<https://stackblitz.com/edit/vuepress-theme-hope-crnleh>)
