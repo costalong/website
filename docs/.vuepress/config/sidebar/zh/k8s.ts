@@ -30,6 +30,16 @@ export const k8s = arraySidebar([
                 ],
             },
             {
+                text: "网关",
+                link: "gateway/",
+                prefix: "gateway/",
+                icon: "laptop-code",
+                collapsible: true,
+                children: [
+                    "traefik",
+                ],
+            },
+            {
                 text: "使用的工具",
                 link: "tools/",
                 prefix: "tools/",
