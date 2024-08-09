@@ -37,6 +37,7 @@ export const k8s = arraySidebar([
                 collapsible: true,
                 children: [
                     "traefik",
+                    "apisix",
                 ],
             },
             {
