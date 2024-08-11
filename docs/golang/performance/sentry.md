@@ -5,6 +5,14 @@ icon: golang2
 
 Sentry是一个开源的应用性能监控（Application Performance Monitoring，APM）和错误追踪平台。 它帮助开发人员监控应用程序的性能、捕获和分析错误，以便及时发现并解决潜在的问题，提高应用程序的稳定性和用户体验
 
+
+## 部署 sentry （k8s）
+
+1.使用 helm 安装 https://github.com/sentry-kubernetes/charts
+
+
+
+
 ## 安装
 
 ```bash
@@ -15,59 +23,6 @@ go get github.com/getsentry/sentry-go
 ## 使用代码：
 
 ```go
-Sentry's logoDocs
-Search Docs
-⌘K
-or
-
-go.gin iconGin
-Sentry for Gin
-Configuration
-Usage
-Enriching Events
-Data Management
-Set Up Tracing
-Set Up Profiling
-Set Up Crons
-Set Up User Feedback
-Migration Guide
-Troubleshooting
-Account Settings
-Organization Settings
-Product Walkthroughs
-Pricing & Billing
-Sentry CLI
-Sentry API
-Security, Legal, & PII
-Concepts & Reference
-Codecov
-Discord
-Support
-Self-Hosting Sentry
-Developer Documentation
-Home
-Platforms
-Go
-Gin
-Gin
-Gin is a high-performance HTTP web framework written in Golang. Learn how to set it up with Sentry.
-For a quick reference, there is a complete example at the Go SDK source code repository.
-
-Go Dev-style API documentation is also available.
-
-Features
-In addition to capturing errors, you can monitor interactions between multiple services or applications by enabling tracing.
-
-Select which Sentry features you'd like to install in addition to Error Monitoring to get the corresponding installation and configuration instructions below.
-
-Install
-Bash
-
-Copied
-go get github.com/getsentry/sentry-go/gin
-Go
-
-Copied
 import (
 	"fmt"
 	"net/http"
@@ -173,6 +128,7 @@ sentry.Init(sentry.ClientOptions{
 		return event
 	},
 })
+
 ```
 
 
@@ -180,4 +136,5 @@ sentry.Init(sentry.ClientOptions{
 ## 文档
 
 - [docs](https://docs.sentry.io/platforms/go/)
+- [sentry](https://github.com/getsentry/sentry)
 - [sentry-go](https://github.com/getsentry/sentry-go)
