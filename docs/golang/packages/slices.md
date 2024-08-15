@@ -921,3 +921,4 @@ func main() {
 
 - [slices 源码](https://github.com/golang/exp/tree/master/slices)
 - [doc](https://cloud.tencent.com/developer/article/2354722)
+- [golang doc](https://golang.google.cn/pkg/slices/)
