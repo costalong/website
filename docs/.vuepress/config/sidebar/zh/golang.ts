@@ -11,7 +11,7 @@ export const golang = arraySidebar(
                 {
                     text: "监控",
                     prefix: 'performance/',
-                    icon: "test",
+                    icon: "performance",
                     collapsible: true,
                     link: "performance/",
                     children: [
@@ -21,7 +21,7 @@ export const golang = arraySidebar(
                 {
                     text: "go 常用的包",
                     prefix: 'packages/',
-                    icon: "test",
+                    icon: "Package",
                     collapsible: true,
                     link: "packages/",
                     children: [
