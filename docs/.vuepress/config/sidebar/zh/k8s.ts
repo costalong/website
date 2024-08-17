@@ -11,7 +11,7 @@ export const k8s = arraySidebar([
                 text: "安装",
                 link: "installs/",
                 prefix: "installs/",
-                icon: "laptop-code",
+                icon: "installs",
                 collapsible: true,
                 children: [
                     "ubuntu-install",
@@ -22,7 +22,7 @@ export const k8s = arraySidebar([
                 text: "k8s的资源",
                 link: "resource/",
                 prefix: "resource/",
-                icon: "resource",
+                icon: "k8s",
                 collapsible: true,
                 children: [
                     "pod",
