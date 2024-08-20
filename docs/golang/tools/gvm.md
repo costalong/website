@@ -2,10 +2,6 @@
 title: gvm安装及go版本管理
 category: golang
 icon: "computer"
-head:
-  - - meta
-  - name: keywords
-    content: gvm go
 ---
 
 ## 介绍
