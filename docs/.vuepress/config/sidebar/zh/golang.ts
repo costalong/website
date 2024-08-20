@@ -40,6 +40,16 @@ export const golang = arraySidebar(
                         "goconvey",
                     ],
                 },
+                {
+                    text: "工具",
+                    prefix: 'tools/',
+                    icon: "tools",
+                    collapsible: true,
+                    link: "tools/",
+                    children: [
+                        "gvm",
+                    ],
+                },
             ],
         }
     ]
