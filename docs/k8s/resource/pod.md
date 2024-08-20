@@ -1,5 +1,6 @@
 ---
 title: pod 资源
+icon: k8s-pod
 category:
   - K8S
   - POD

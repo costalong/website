@@ -1,6 +1,6 @@
 ---
 title: "golang 性能监听工具 sentry"
-icon: golang2
+icon: sentry
 ---
 
 Sentry是一个开源的应用性能监控（Application Performance Monitoring，APM）和错误追踪平台。 它帮助开发人员监控应用程序的性能、捕获和分析错误，以便及时发现并解决潜在的问题，提高应用程序的稳定性和用户体验

@@ -1,6 +1,6 @@
 ---
 title: k8s的网关 apisix 
-icon: creative
+icon: apisix
 category:
   - K8S
 ---

@@ -1,6 +1,6 @@
 ---
 title: k8s的网关 traefik
-icon: creative
+icon: traefik
 category:
   - K8S
 ---

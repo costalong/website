@@ -1,6 +1,6 @@
 ---
 title: k8s 安装的常见的错误
-icon: creative
+icon: error
 category:
   - K8S
 ---

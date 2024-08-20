@@ -1,6 +1,6 @@
 ---
 title: Ubuntu使用containerd安装k8s
-icon: creative
+icon: ubuntu
 category:
   - K8S
 ---

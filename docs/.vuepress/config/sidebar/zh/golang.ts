@@ -9,6 +9,26 @@ export const golang = arraySidebar(
             children: [
                 'home',
                 {
+                    text: "监控",
+                    prefix: 'performance/',
+                    icon: "performance",
+                    collapsible: true,
+                    link: "performance/",
+                    children: [
+                        "sentry",
+                    ],
+                },
+                {
+                    text: "go 常用的包",
+                    prefix: 'packages/',
+                    icon: "Package",
+                    collapsible: true,
+                    link: "packages/",
+                    children: [
+                        "slices",
+                    ],
+                },
+                {
                     text: "测试",
                     prefix: 'tests/',
                     icon: "test",

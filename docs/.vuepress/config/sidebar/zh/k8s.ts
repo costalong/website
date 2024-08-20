@@ -11,7 +11,7 @@ export const k8s = arraySidebar([
                 text: "安装",
                 link: "installs/",
                 prefix: "installs/",
-                icon: "laptop-code",
+                icon: "installs",
                 collapsible: true,
                 children: [
                     "ubuntu-install",
@@ -22,7 +22,7 @@ export const k8s = arraySidebar([
                 text: "k8s的资源",
                 link: "resource/",
                 prefix: "resource/",
-                icon: "laptop-code",
+                icon: "k8s",
                 collapsible: true,
                 children: [
                     "pod",
@@ -33,7 +33,7 @@ export const k8s = arraySidebar([
                 text: "网关",
                 link: "gateway/",
                 prefix: "gateway/",
-                icon: "laptop-code",
+                icon: "gateway",
                 collapsible: true,
                 children: [
                     "traefik",
@@ -44,7 +44,7 @@ export const k8s = arraySidebar([
                 text: "使用的工具",
                 link: "tools/",
                 prefix: "tools/",
-                icon: "laptop-code",
+                icon: "tools",
                 collapsible: true,
                 children: [
                     "kubecm",
