@@ -65,10 +65,9 @@ source ~/.zshrc
 source ~/.bash_profile
 ```
 
-> 官方国内镜像：<https://golang.google.cn/dl/>
-> 阿里云镜像：<https://mirrors.aliyun.com/golang/>
-> 中科大镜像：<http://mirrors.ustc.edu.cn/golang/>
-
+> 官方国内镜像：<https://golang.google.cn/dl/>  
+> 阿里云镜像：<https://mirrors.aliyun.com/golang/>  
+> 中科大镜像：<http://mirrors.ustc.edu.cn/golang/>  
 
 #### Step 4.先安装版本
 
