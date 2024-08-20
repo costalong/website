@@ -761,7 +761,6 @@ func main() {
 
 `Replace` 函数用于将切片s 中的元素 s[i:j] 替换为给定的元素组 v，然后返回修改后的切片。如果 s[i:j] 不是 s 的有效切片范围，函数会引发 panic。
 
-
 ```go
 package main
 
@@ -791,14 +790,14 @@ func main() {
 package main
 
 import (
-	"fmt"
-	"slices"
+ "fmt"
+ "slices"
 )
 
 func main() {
-	numbers := []int{1, 2, 3, 4}
-	slices.Reverse(numbers)
-	fmt.Println(numbers)
+ numbers := []int{1, 2, 3, 4}
+ slices.Reverse(numbers)
+ fmt.Println(numbers)
 }
 
 ```
@@ -821,18 +820,18 @@ func main() {
 package main
 
 import (
-	"fmt"
-	"math"
-	"slices"
+ "fmt"
+ "math"
+ "slices"
 )
 
 func main() {
-	ints := []int{1, 2, 5, 3, 4}
-	slices.Sort(ints)
-	floats := []float64{2.0, 3.0, math.NaN(), 1.0}
-	slices.Sort(floats)
-	fmt.Println(ints)
-	fmt.Println(floats)
+ ints := []int{1, 2, 5, 3, 4}
+ slices.Sort(ints)
+ floats := []float64{2.0, 3.0, math.NaN(), 1.0}
+ slices.Sort(floats)
+ fmt.Println(ints)
+ fmt.Println(floats)
 }
 ```
 
@@ -852,18 +851,18 @@ func main() {
 package main
 
 import (
-	"cmp"
-	"fmt"
-	"slices"
-	"strings"
+ "cmp"
+ "fmt"
+ "slices"
+ "strings"
 )
 
 func main() {
-	names := []string{"Bob", "Aaron", "GOPHER"}
-	slices.SortFunc(names, func(a, b string) int {
-		return cmp.Compare(strings.ToLower(a), strings.ToLower(b))
-	})
-	fmt.Println(names)
+ names := []string{"Bob", "Aaron", "GOPHER"}
+ slices.SortFunc(names, func(a, b string) int {
+  return cmp.Compare(strings.ToLower(a), strings.ToLower(b))
+ })
+ fmt.Println(names)
 }
 ```
 
@@ -884,27 +883,27 @@ func main() {
 package main
 
 import (
-	"cmp"
-	"fmt"
-	"slices"
+ "cmp"
+ "fmt"
+ "slices"
 )
 
 func main() {
-	type User struct {
-		Name string
-		Age  int
-	}
+ type User struct {
+  Name string
+  Age  int
+ }
 
-	users := []User{
-		{"Aaron", 20},
-		{"Gopher", 16},
-		{"Harry", 16},
-		{"Burt", 18},
-	}
-	slices.SortStableFunc(users, func(a, b User) int {
-		return cmp.Compare(a.Age, b.Age)
-	})
-	fmt.Println(users)
+ users := []User{
+  {"Aaron", 20},
+  {"Gopher", 16},
+  {"Harry", 16},
+  {"Burt", 18},
+ }
+ slices.SortStableFunc(users, func(a, b User) int {
+  return cmp.Compare(a.Age, b.Age)
+ })
+ fmt.Println(users)
 }
 ```
 
@@ -913,7 +912,6 @@ func main() {
 ```sh
 [{Gopher 16} {Harry 16} {Burt 18} {Aaron 20}]
 ```
-
 
 排序之前，Harry 在 Gopher 后面，排序之后，也是同样的相对位置。
 
