@@ -87,3 +87,7 @@ func CustomSplit(data []byte, atEOF bool) (advance int, token []byte, err error)
 }
 ```
 
+## 参考
+
+- [深入理解 Go 标准库之 bufio.Scanner](https://studygolang.com/articles/11905)
+
