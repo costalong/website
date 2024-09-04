@@ -2,6 +2,11 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
     {
+        text: "Linux",
+        icon: "cloud",
+        link: "/linux/",
+    },
+    {
         text: "云原生",
         icon: "cloud",
         link: "/k8s/",
