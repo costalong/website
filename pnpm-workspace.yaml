@@ -1,0 +1,3 @@
+packages:
+  - packages/@vuepress-reco/*
+  - packages/vuepress-theme-reco

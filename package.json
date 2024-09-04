@@ -4,6 +4,10 @@
   "description": "开发文档笔记",
   "license": "MIT",
   "type": "module",
+  "workspaces": [
+    "packages/vuepress-theme-reco",
+    "packages/@vuepress-reco/*"
+  ],
   "scripts": {
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
@@ -29,16 +33,21 @@
     "@vuepress/plugin-docsearch": "2.0.0-rc.39",
     "@vuepress/plugin-feed": "2.0.0-rc.39",
     "@vuepress/plugin-pwa": "2.0.0-rc.39",
+    "@vuepress-reco/shared": "workspace:*",
+    "@vuepress-reco/tailwindcss-config": "workspace:*",
     "@waline/client": "3.3.0",
     "flowchart.ts": "3.0.0",
     "mathjax-full": "3.2.2",
     "mermaid": "10.9.1",
     "reveal.js": "5.1.0",
     "sass-loader": "14.2.1",
+    "eslint": "^7.23.0",
+    "eslint-config-vuepress": "^3.2.1",
+    "eslint-config-vuepress-typescript": "^2.2.1",
     "vite": "5.3.4",
-    "vue": "3.4.33",
-    "vuepress": "2.0.0-rc.14",
+    "vue": "^3.4.29",
     "vuepress-plugin-search-pro": "2.0.0-rc.39",
-    "vuepress-theme-hope": "2.0.0-rc.52"
+    "vuepress": "2.0.0-rc.15",
+    "vuepress-theme-reco": "workspace:*"
   }
 }

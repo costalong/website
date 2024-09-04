@@ -1,9 +1,9 @@
-import { hopeTheme } from "vuepress-theme-hope";
+import { recoTheme } from 'vuepress-theme-reco'
 import { zhNavbar } from "./config/navbar/";
 import { zhSidebar } from "./config/sidebar";
 import { comment, components, mdEnhance } from "./plugins/index";
 
-export default hopeTheme(
+export default recoTheme(
     {
         hostname: "https://costalong.com",
         author: {
