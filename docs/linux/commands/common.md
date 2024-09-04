@@ -224,6 +224,35 @@ title: linux 常用的命令
 
 ### - `diff`:  比较文件的差异
 
+```sh
+- `diff test1 test2`:  比较两个文件的不同
+- `diff -c test1 test2`:  比较两个文件的不同，并显示所有不同之处
+- `diff -u test1 test2`:  比较两个文件的不同，并显示所有不同之处
+- `diff -y test1 test2`:  比较两个文件的不同，并以并列的方式显示所有不同之处
+- `diff -i test1 test2`:  比较两个文件的不同，忽略大小写
+- `diff -w test1 test2`:  比较两个文件的不同，忽略所有的空格
+- `diff -b test1 test2`:  比较两个文件的不同，不检查空格的不同
+- `diff -B test1 test2`:  比较两个文件的不同，不检查空白行的不同
+- `diff -r test1 test2`:  比较两个目录的不同
+- `diff -n test1 test2`:  将比较结果以RCS的格式来显示。
+- `diff -N test1 test2`:  比较两个文件的不同，如果文件1为空，显示文件2的所有内容
+- `diff -Naur test1 test2`:  比较两个目录的不同，并以累加的方式输出不同之处
+- `diff -q test1 test2`:  　仅显示有无差异，不显示详细的信息。
+- `diff test.txt  test2.txt -y`:  比较两个文件的不同，并以并列的方式显示所有不同之处
+- `diff test.txt  test2.txt -y -W 100`:  比较两个文件的不同，并以并列的方式显示所有不同之处，每行显示100个字符
+```
+
+
+
+说明:
+
+> "|"表示前后2个文件内容有不同  
+> "<"表示后面文件比前面文件少了1行内容  
+> ">"表示后面文件比前面文件多了1行内容  
+
+参考: [菜鸟](https://www.runoob.com/linux/linux-comm-diff.html)
+
+
 ### - `file`:  查看文件的类型
 
 ### - `du`:  查看文件或目录的磁盘使用空间
