@@ -1,6 +1,6 @@
 ---
 home: true
-title: github
+title: Home
 heroImage: https://vuejs.press/images/hero.png
 actions:
   - text: Get Started
@@ -12,8 +12,8 @@ actions:
     type: secondary
 
 features:
-  - title: kustomize-tpl
-    details: 使用kustomize-tpl生成k8s资源文件
+  - title: Simplicity First
+    details: Minimal setup with markdown-centered project structure helps you focus on writing.
   - title: Vue-Powered
     details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
   - title: Performant
@@ -25,13 +25,9 @@ features:
   - title: Bundlers
     details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
 
-footer: MIT Licensed | Copyright © 2024-present VuePress Community
+footer: MIT Licensed | Copyright © 2018-present VuePress Community
 ---
 
 This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
 
-## 文档
-
-- [default-theme-home]: （!<https://vuejs.press/>)
-- [文档]: （!<https://theme-hope.vuejs.press/zh/config/theme/basic.html>)
-- [文档]: （!<https://stackblitz.com/edit/vuepress-theme-hope-crnleh>)
+[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page

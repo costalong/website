@@ -31,7 +31,6 @@ title: linux 常用的命令
 - s:  套接字文件
 
 
-
 ### - `cd`:  切换目录  
 
 ```sh
@@ -71,7 +70,7 @@ title: linux 常用的命令
   - `mkdir -p test/{a,b,c}`:  创建多级目录
 ```
 
-### - `rmdir`:  删除目录 
+### - `rmdir`:  删除目录
 
 ```sh
   - `rmdir test`:  删除空目录

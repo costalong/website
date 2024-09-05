@@ -1,5 +1,5 @@
-import { arraySidebar } from "vuepress-theme-hope";
-export const linux = arraySidebar(
+
+export const linux =
   [
     {
       text: "Linux",
@@ -20,4 +20,3 @@ export const linux = arraySidebar(
       ]
     },
   ]
-)
