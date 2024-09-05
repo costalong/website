@@ -1,11 +1,13 @@
 import { defineUserConfig } from 'vuepress/cli'
+import { recoTheme } from 'vuepress-theme-reco'
 import { viteBundler } from '@vuepress/bundler-vite'
-import theme from "./theme.ts";
-import { head } from './config/head';
+import { head } from './config/head/index.ts';
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
+import { HeadConfig } from 'vuepress/core';
+
 export default defineUserConfig({
-    // base: 网站域名前缀对应自己的GitHub仓库名称
+  // base: 网站域名前缀对应自己的GitHub仓库名称
   // 一定要以/开头结尾，不然会出现资源找不到
   base: "/website/",
   dest: "docs/.vuepress/dist",
@@ -19,9 +21,6 @@ export default defineUserConfig({
   //是否开启页面预拉取，如果服务器宽带足够，可改为 true，会提升其他页面加载速度
   shouldPrefetch: false,
   // page meta
-  metaLocales: {
-      editLink: "在 GitHub 上编辑此页",
-  },
   plugins: [
     searchProPlugin({
       // 索引全部内容
@@ -29,18 +28,18 @@ export default defineUserConfig({
       // 为分类和标签添加索引
       customFields: [
         {
-          getter: (page) => page.frontmatter.category,
+          getter: (page) => page.frontmatter.category as string[] || [],
           formatter: "分类：$content",
         },
         {
-          getter: (page) => page.frontmatter.tag || [],
+          getter: (page) => page.frontmatter.tag as string[] || [],
           formatter: "标签：$content",
         },
       ],
     }),
   ],
-  head: head,
-  theme: theme,
-  bundler: viteBundler(),
+  head: head as HeadConfig[],
+  theme: recoTheme({}),
+  bundler: viteBundler({}),
   pagePatterns: ["**/*.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"],
 })
